@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: auto;
+}
+
+body {
+  height: 5000px;
+  width: 1600px;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  line-height: 1.8;
+  font-size: 24px;
+}
+
+.par {
+  height: 600px;
+  width: 1200px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20vh;
+  margin-bottom: 20%;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+#too {
+  height: 725px;
+  width: 469px;
+}
+
+.text {
+  width: 610px;
+  height: 720px;
+  align-items: center;
+}
+
+#trump {
+  width: 1596px;
+  margin-bottom: 10%;
+}
+
+#numerato {
+    color: white;
+    width: 650px;
+    margin-left: calc(300px);
+}
+
+.max {
+    color: white;
+    font-size: 420px;
+    text-align: right;
+}
