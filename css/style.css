@@ -1,31 +1,57 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: auto;
+  margin: 0;
 }
 
 body {
-  height: 5000px;
-  width: 1600px;
   font-family: "Inter", sans-serif;
+  font-size: 24px;
+  background-color:rgb(255, 34, 108);
+  background-image: url('img//sfondo.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
   font-size: 24px;
 }
 
-p {
-  font-family: "Inter", sans-serif;
-  line-height: 1.8;
-  font-size: 24px;
+nav .search-icon {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+main {
+  flex: 1;
 }
 
 .par {
   height: 600px;
   width: 1200px;
-  display: flex;
+  display:flex;
   color: white;
   align-items: center;
   justify-content: space-between;
   margin-top: 20vh;
   margin-bottom: 20%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bold {
@@ -45,17 +71,93 @@ p {
 
 #trump {
   width: 1596px;
-  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #numerato {
-    color: white;
-    width: 650px;
-    margin-left: calc(300px);
+  color: white;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.max {
-    color: white;
-    font-size: 420px;
-    text-align: right;
+footer {
+  text-align: left;
+  padding: 10px 0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p, footer a {
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  font-size: 24px;
+}
+
+nav .search-bar {
+  display: flex;
+  align-items: center;
+  margin-left: auto; 
+}
+
+nav .search-bar input[type="text"] {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+nav .search-bar button {
+  background-color: rgb(255, 34, 108);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+nav .search-bar button:hover {
+  background-color:rgb(255, 0, 81);
+}
+.page-title {
+  color: white;
+  font-size: 60px;
+  font-weight: lighter;
+  position: absolute;
+  top: 200px; 
+  left: 800px; 
+  z-index: 1;
+}
+.img{
+  margin-left: auto;
+  margin-right: auto;
+}
+.img {
+  text-align: center; 
+}
+
+.img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-below-image {
+  margin-top: 40px; 
+  margin-left: auto;
+  margin-right: auto;
 }
